@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  html {
+    font-family: Rubik, sans-serif;
+  }
+
+  .def-fx-col {
+    @apply flex flex-col justify-center items-center;
+  }
+}
