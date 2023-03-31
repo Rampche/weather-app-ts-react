@@ -7,7 +7,7 @@ const App: React.FC = (): JSX.Element => {
     useForecast();
 
   return (
-    <main className="bg-sky-400 def-fx-col w-full ">
+    <main className="bg-sky-400 flex justify-center items-center w-full ">
       {forecast ? (
         <Forecast data={forecast} />
       ) : (
